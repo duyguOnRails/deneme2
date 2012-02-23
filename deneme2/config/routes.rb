@@ -1,4 +1,8 @@
 Deneme2::Application.routes.draw do
+  get "home/index"
+
+  resources :posts
+
   get "main/HelloWorld"
 
   # The priority is based upon order of creation:
